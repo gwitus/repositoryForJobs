@@ -1,0 +1,7 @@
+Esse programa tem o objetivo de ser um software destinado ao RH de uma empresa - nesse repositório em especifíco será tudo como se fosse destinado para a empresa
+eldorado celulose brasi.
+
+Então ele vai seguir algumas regras:
+
+- O sistema tem que ter um banco de talentos rodando em mysql 
+- Quando uma nova
