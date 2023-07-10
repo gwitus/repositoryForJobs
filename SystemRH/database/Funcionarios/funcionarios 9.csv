@@ -1,0 +1,1001 @@
+id,Matricula,local,em_atividade,administador
+1,567651,Núi Đối,false,false
+2,445130,Hecheng,false,true
+3,221531,Sōja,false,false
+4,096935,Sinop,false,true
+5,927978,Trinidad,true,true
+6,077990,Horad Rechytsa,false,true
+7,136392,Karabanovo,true,false
+8,615790,Furongqiao,false,false
+9,884617,Nova Cruz,false,false
+10,385001,Khóra,false,false
+11,354906,Ḩarīb,false,true
+12,115820,Đạ Tẻh,false,true
+13,308324,Otutara,false,true
+14,260260,Dueñas,false,false
+15,482536,Novoselë,true,true
+16,241953,Bailang,true,true
+17,257121,Chinú,true,true
+18,112945,Kanungu,false,false
+19,411399,Shu,true,true
+20,729318,Shantoudian,true,true
+21,398214,Khursā,true,true
+22,310040,Deventer,false,true
+23,391902,Vasyl'evsky Ostrov,true,true
+24,166104,Cherëmushki,true,false
+25,087232,Larvik,false,true
+26,738937,Dukuhsia,true,true
+27,390147,Cañada de Gómez,true,false
+28,760142,Belang,true,false
+29,466793,Salvacion,false,true
+30,058416,Komysh-Zorya,true,true
+31,616637,Krajan Satu,false,false
+32,202400,Rokytnice,true,false
+33,135961,Popielów,false,true
+34,011935,Guanmian,false,false
+35,223670,Bartica,true,false
+36,388820,Soissons,false,false
+37,888654,Tadrart,true,true
+38,529992,Lixi,true,false
+39,645847,Pontang Tengah,true,false
+40,319265,Castanheira,false,false
+41,141513,Kotikawatta,true,false
+42,288586,Pácora,true,true
+43,415055,Ashtarak,true,false
+44,414772,Baluk,true,true
+45,727627,Xianxi,true,true
+46,579826,Yushikalasu,false,true
+47,660926,Paris 05,true,true
+48,516103,Mionica,true,true
+49,458929,Gafanha de Aquém,false,false
+50,480943,Sarandi,true,false
+51,566496,Nanmu,false,false
+52,680203,Kristiansand S,false,true
+53,759131,Vitarte,false,false
+54,310511,Znamenskoye,true,false
+55,595692,Teroual,false,false
+56,641833,Yongjiahe,true,false
+57,959600,Na Chueak,true,false
+58,890308,Outeiro,false,true
+59,072984,Jiuhua,false,false
+60,963881,Łubnice,true,false
+61,087359,Arnprior,false,true
+62,292290,Anxi,true,false
+63,564345,Dziewin,false,true
+64,761430,Vidzy,false,true
+65,527373,Umeå,true,false
+66,906470,Chamical,false,true
+67,381228,Kanie,false,false
+68,642399,Khashuri,true,true
+69,045556,Bordeaux,true,true
+70,866580,Balangkayan,false,true
+71,662275,Cuenca,true,true
+72,185961,Norrköping,false,false
+73,848025,Garoua,true,true
+74,987817,Ribnica na Pohorju,true,true
+75,450276,Chōfugaoka,false,false
+76,632708,Barwałd Górny,true,false
+77,642382,Trzcińsko Zdrój,false,false
+78,969897,Xindong,true,true
+79,060179,Persen,true,false
+80,530407,Nantian,false,false
+81,770005,Noling,true,false
+82,047757,Escazú,false,false
+83,955548,Zlaté Hory,false,false
+84,733101,Jingkou,true,true
+85,479355,Paitan Norte,false,false
+86,891804,Ballinroad,true,true
+87,590479,Lishu,false,false
+88,780175,Ungaran,true,true
+89,592860,Xubao,true,true
+90,104133,Irving,true,true
+91,073144,Nancy,false,false
+92,657259,Balgarevo,true,true
+93,200384,Marcos Juárez,false,true
+94,661309,Braunschweig,false,true
+95,067809,Aqtöbe,false,true
+96,864463,Santana do Ipanema,false,false
+97,647226,Alexandroúpoli,false,true
+98,797423,Vol’nyy Aul,false,true
+99,290475,Pantaihambawang,false,true
+100,694727,Pirojpur,true,false
+101,324458,Tây Hồ,false,true
+102,863203,Santa Catalina - Dique Lujan,true,true
+103,746392,Rimouski,true,false
+104,121747,Garnich,false,false
+105,820565,Gouping,false,true
+106,065718,Catache,true,true
+107,436606,Diez de Octubre,false,true
+108,408765,Saint Petersburg,false,false
+109,179747,Yagoua,false,false
+110,471439,Vychegodskiy,false,false
+111,339595,Stockholm,true,true
+112,940585,Kalino,false,true
+113,286564,Tobruk,true,false
+114,738270,Kočevje,false,false
+115,615647,Dzhiginka,false,false
+116,964957,Weishanzhuang,true,false
+117,534790,Puente Nacional,true,false
+118,761490,Xieyang,true,false
+119,730065,Dedza,false,true
+120,785618,Baisha,true,false
+121,836954,Urengoy,false,false
+122,104627,Ngudu,true,false
+123,147660,Dolní Sloupnice,true,false
+124,859851,Bucay,false,true
+125,495215,Wangunjaya,true,false
+126,921309,At Tibnī,false,true
+127,169466,Magallanes,true,false
+128,171527,Caen,true,false
+129,401767,Qingyang,true,false
+130,864186,Paris 06,true,false
+131,813624,Omboué,true,true
+132,211475,Lamalewo,true,false
+133,409297,Sulyukta,true,true
+134,138825,Gaomiaoji,false,true
+135,908298,Bhāndāria,false,false
+136,968379,Baitu,true,true
+137,820729,Fasi,false,false
+138,293131,Igir-igir,false,false
+139,489797,Jamaica,false,true
+140,998352,Sakerta Timur,false,false
+141,314939,Lusambo,true,false
+142,201699,Skopje,false,false
+143,551429,Pelabuhan Dagang,false,true
+144,552460,Oslo,true,true
+145,972921,Rawson,true,true
+146,611255,Morales,false,false
+147,613312,Jalupang Dua,false,true
+148,995133,Siruma,false,false
+149,189560,Xingquan,false,false
+150,222440,Shamakhi,true,true
+151,106573,Aral,true,false
+152,481418,Catac,true,false
+153,718159,Bolekhiv,false,false
+154,037504,Fuling,true,false
+155,655725,Jixing,true,true
+156,503845,Gushi,false,false
+157,725364,Pisangkemeng,true,true
+158,748074,Feteira Pequena,true,true
+159,589079,Sano,true,false
+160,195683,Ijuí,false,true
+161,600420,Södra Sandby,true,false
+162,676558,Verkhniy Kurkuzhin,false,true
+163,418375,Aksu,false,false
+164,058327,Ramadi,false,true
+165,902410,Póvoa,false,true
+166,751509,Kunheda Woerzu Manzu,true,true
+167,557602,Leuwibuleud,false,false
+168,212149,Maulawin,true,false
+169,614606,Banag,true,false
+170,318397,Banquero,false,true
+171,716876,Sorokino,true,false
+172,227421,Concepcion,true,false
+173,863707,Suan Luang,true,false
+174,588955,Khairiahmandah,false,true
+175,522009,Jaguaruana,true,false
+176,960489,Prakhon Chai,false,false
+177,200027,Auxerre,false,false
+178,059626,Juliaca,true,true
+179,144581,Sun Kunda,true,true
+180,514191,Melong,true,false
+181,913307,Wenwuba,true,true
+182,353617,Río Guayabal de Yateras,true,false
+183,200232,Pasiraman,false,true
+184,489562,Jovellar,true,false
+185,558255,Santiaoshi,true,true
+186,644742,Gaio,true,true
+187,804885,Chashnikovo,true,true
+188,056177,Mangkon Daja,true,true
+189,030228,Čelinac,false,true
+190,772263,Gampola,true,false
+191,208869,Icó,false,false
+192,107381,La Unión,true,true
+193,701701,Novocherkassk,false,true
+194,630818,Klyuchevskiy,false,true
+195,588244,Jindřichov,true,true
+196,141489,Cavalões,true,true
+197,507150,Vsevolozhsk,true,false
+198,123089,Vadstena,true,true
+199,549301,Pombas,true,true
+200,650335,Frederiksberg,true,true
+201,343238,Konstantynów,true,true
+202,300633,Uhlove,false,false
+203,911354,Mumias,true,false
+204,561426,Kota Bharu,true,true
+205,533994,Milano,false,false
+206,390335,Dauriya,false,false
+207,379139,Neftegorsk,false,false
+208,043995,Santiago,false,false
+209,358200,Kaset Wisai,true,false
+210,099347,Cartagena,true,false
+211,797169,Oklahoma City,false,false
+212,798586,Pensacola,false,false
+213,666557,Palencia,true,true
+214,674577,Veiga,true,false
+215,761318,Cempaka,true,true
+216,245388,Huyang,false,true
+217,791606,Kolympári,true,true
+218,545667,Gostagayevskaya,true,false
+219,213856,Cucutilla,true,false
+220,459626,Sumbersih,true,true
+221,785067,Miki,true,true
+222,355821,Birštonas,true,true
+223,013964,Pueblo Nuevo,false,false
+224,212686,Guanyang,true,true
+225,815491,Jagistay,false,false
+226,320207,Wanurian,false,true
+227,810309,Guanajay,true,false
+228,259474,Krasnoshchekovo,true,false
+229,264152,Ljungby,false,false
+230,077536,Vsevolozhsk,true,false
+231,635842,Sumber,false,false
+232,180312,Probolinggo,true,true
+233,825199,Munsan,true,true
+234,912459,Isahaya,true,false
+235,483435,Angered,true,false
+236,500511,Zeguo,true,false
+237,794349,Guérande,true,false
+238,062574,Farinheiras,true,false
+239,253406,Chaodi,true,false
+240,645510,Mabilog,true,false
+241,672553,Oesapa,true,false
+242,431905,La Jicaral,true,true
+243,439906,Cinunjang,false,false
+244,371670,La Jicaral,false,true
+245,042950,Carromeu,false,true
+246,689583,Potiskum,false,false
+247,359090,Agoncillo,false,false
+248,722272,Severo-Zadonsk,true,false
+249,998022,Ruyigi,false,true
+250,267080,Rimpeso,true,true
+251,372467,Giebułtów,false,true
+252,863844,Xiwu,true,false
+253,649096,Lipie,true,false
+254,727718,Las Palmas,true,false
+255,158746,Tajumulco,false,true
+256,712785,Gorzyce,true,false
+257,824844,Lomintsevskiy,true,true
+258,588112,Bang Ban,false,false
+259,666686,Ichinohe,false,false
+260,415678,Le Puy-en-Velay,true,true
+261,395051,Jiukou,true,false
+262,377530,Montonggamang,true,false
+263,659679,Xihongmen,false,false
+264,338888,Pasarbaru,true,true
+265,689534,Yelat’ma,false,false
+266,384626,Cibitung,false,true
+267,368609,Srbica,false,false
+268,467963,Patayac,false,false
+269,860019,Yakovlevskoye,false,false
+270,322848,Xinzhaiping,true,true
+271,636873,Thoeng,false,false
+272,056987,Hengli,true,false
+273,136219,San Antonio,true,true
+274,761619,Aoshi,true,false
+275,992033,Campo Quijano,true,false
+276,821403,Esperanza,false,true
+277,853986,Qusar,true,true
+278,556968,Ejido,false,true
+279,894317,Sūq ar Rabū‘,true,true
+280,853138,Houjie,true,true
+281,380470,Chagou,false,false
+282,283763,Stepanivka,false,true
+283,185201,Johnson City,false,true
+284,077970,Khiliomódhi,false,true
+285,152151,San Jacinto,true,false
+286,470546,Panite,true,false
+287,176772,Fatubia,false,true
+288,472291,Leticia,true,true
+289,950248,Vyaz’ma,false,false
+290,204871,Armenia,false,false
+291,085666,San Quintin,false,false
+292,091153,Jinan,false,true
+293,558091,Podhum,true,false
+294,349654,Qiandeng,true,true
+295,111124,Larangan,true,true
+296,634687,Dayanggezhuang,false,true
+297,128243,Radocza,true,false
+298,709517,Diapaga,true,true
+299,466158,Strelka,false,true
+300,823712,Al Funayţīs,true,false
+301,529863,Sekampung,false,false
+302,845226,Bria,false,true
+303,248385,Putukrejo,true,false
+304,821060,Piet Retief,true,false
+305,002408,Baitang,false,true
+306,349960,Xindi,true,false
+307,648771,Kvitok,true,true
+308,258163,Songzhuang,false,true
+309,023514,Tabou,false,false
+310,267762,Bāsht,true,false
+311,858716,Seminole,false,true
+312,705813,Ḩabīl ar Raydah,false,true
+313,345176,Pu’an,false,true
+314,959350,Muraloka,true,true
+315,863095,Tambakan,false,false
+316,766445,San Narciso,false,false
+317,155172,Gumdag,false,true
+318,050707,Otavi,true,true
+319,497890,Fale old settlement,true,true
+320,133627,Nagoya-shi,false,true
+321,511043,Sośnicowice,false,true
+322,515636,Al Ḩāḑir,false,false
+323,178400,Dengzhou,false,true
+324,350007,Xiaoxiang,false,true
+325,013239,Sindangraja,false,false
+326,407115,Alajuelita,true,false
+327,197045,Kristianstad,false,true
+328,723663,Seren,true,true
+329,765087,Mengxi,true,true
+330,306207,Jiuchenggong,true,true
+331,074240,Göteborg,true,true
+332,415167,Dërmënas,true,false
+333,190571,Gaoyang,false,false
+334,874743,Hisor,true,false
+335,889440,Stoney Ground,false,true
+336,526889,Skaudvilė,false,true
+337,501418,Ubrub,false,true
+338,849402,Belén,true,false
+339,326411,Arrën,false,false
+340,162800,Hassi Berkane,true,false
+341,587050,Ngedhusuba,false,false
+342,419083,Pilchowice,false,false
+343,330100,Psará,true,true
+344,436869,Talambung Laok,true,true
+345,835466,Thiès Nones,true,true
+346,222089,Yulin,true,false
+347,920568,Linshui,false,true
+348,463330,Kosh-Agach,false,false
+349,738716,Boracéia,false,true
+350,938825,Udon Thani,false,false
+351,897189,Camlachie,true,true
+352,918091,Kishk-e Nakhūd,true,false
+353,425196,Damietta,true,false
+354,171587,Podgorica,true,false
+355,134770,Anren Chengguanzhen,true,false
+356,935972,Darungan,true,false
+357,345567,Gēdo,true,false
+358,718436,Fengtai,true,true
+359,873494,Ostrów Lubelski,true,true
+360,995206,Alegrete,false,false
+361,908282,Cijeungjing Kaler,false,true
+362,154320,Rodionovo-Nesvetaiskoye,false,true
+363,402513,Kotovsk,false,false
+364,634198,Bundibugyo,true,false
+365,374764,Dongkeng,false,true
+366,713636,La Julia,false,false
+367,413641,Beishan,true,false
+368,691890,Bonebone,false,true
+369,525684,Kermānshāh,false,false
+370,514178,Baoshan,false,false
+371,815314,Jiuxian,false,false
+372,387268,Granada,false,false
+373,865692,As Salţ,false,true
+374,313636,Lutun,false,true
+375,795448,Lyon,true,false
+376,500615,Florentino Ameghino,false,false
+377,458695,Choisy-le-Roi,true,true
+378,953803,Yuetang,true,false
+379,326549,Dahe,false,true
+380,179179,Kaiyuan,true,false
+381,495532,Malārd,true,false
+382,403540,Tongshan,true,false
+383,822274,Azaruja,true,true
+384,283153,Kisanga,false,true
+385,092719,Liuxiang,false,true
+386,722841,Salinópolis,true,true
+387,173010,Trat,true,false
+388,209661,Doruchów,true,false
+389,407023,Cisaat,false,false
+390,033937,Itatinga,true,false
+391,135331,Pailiao,false,false
+392,688136,Tovarnik,false,true
+393,252014,Lemery,false,false
+394,856756,Ochota,false,false
+395,618948,Magdalena,true,true
+396,168611,El Tablón,false,false
+397,478716,Tripoli,false,false
+398,735639,Ciusul,true,true
+399,317838,Dobšice,false,true
+400,919046,Nynäshamn,true,true
+401,272289,Jungutbatu Kaja Dua,false,false
+402,999183,Keda,true,true
+403,475569,Néa Mákri,true,true
+404,762645,Pakkat,true,false
+405,344858,Yaroslavl,true,false
+406,733085,Qinshan,false,false
+407,816804,Murmashi,true,false
+408,105597,Yijing,true,false
+409,250944,Pringu,true,false
+410,759765,Krasnyye Barrikady,true,false
+411,168314,Charlesland,true,true
+412,261168,Wangi,true,false
+413,463057,Boca Suno,false,true
+414,822504,Nyala,true,true
+415,391543,Fujisawa,true,false
+416,518503,Katsuura,false,false
+417,599912,Talun,true,false
+418,456774,Kalodu,true,true
+419,630947,Sasar,true,true
+420,918678,Aki,false,true
+421,896408,Książ Wielkopolski,true,false
+422,515029,Qianwei,false,true
+423,043646,Fangxian,false,false
+424,404944,Xinghai,false,true
+425,193723,Doushan,false,true
+426,130879,Istres,true,true
+427,311995,Tvŭrditsa,false,false
+428,119587,Komprachcice,false,true
+429,641272,Pengdian,true,false
+430,502417,Patrída,false,true
+431,696874,Karasuk,true,false
+432,106830,Thị Trấn Thuận Châu,true,false
+433,532154,Ramadi,true,false
+434,362313,Debe,true,false
+435,648760,Tuanjie,true,false
+436,497047,Houston,true,true
+437,831063,Shakhta,true,true
+438,365425,Liangnong,true,false
+439,548137,Minūf,false,false
+440,884334,Bafoussam,true,false
+441,853002,Twante,true,false
+442,830835,Paris 03,true,true
+443,273429,Belén de Umbría,false,false
+444,179564,San Juan Atitán,true,true
+445,054166,Progreso,true,false
+446,701755,Srinjine,false,false
+447,346795,Fontenay-sous-Bois,true,false
+448,086037,Tanjungagung,true,false
+449,405591,Gaotai,false,true
+450,825249,Guanghou,false,false
+451,973914,Yanacancha,false,false
+452,791646,Al Qadarif,true,true
+453,727732,Portão,true,false
+454,470777,Budenovetc,true,false
+455,033658,Zhangguanying,true,true
+456,402778,Campoalegre,false,true
+457,929224,Banqiao,false,false
+458,560469,Houston,false,false
+459,140816,Doetinchem,true,false
+460,912080,Pingshanhu,true,true
+461,608917,Mikrókampos,false,true
+462,383634,Mondragon,true,true
+463,986526,Tây Ninh,false,false
+464,297488,Dolores,true,true
+465,655553,Dapeng,true,false
+466,596715,La Clotilde,true,true
+467,939296,Guadalupe,false,true
+468,613038,Kawerau,false,true
+469,845521,Roslavl’,false,false
+470,064280,Jingu,true,false
+471,434808,Thap Than,false,false
+472,996600,San Cristóbal,false,false
+473,389965,Banjarsari,false,true
+474,692089,Bukal,true,true
+475,185647,Kang-neung,false,true
+476,012022,Shahrak,false,false
+477,217378,Popova,false,true
+478,308330,Järfälla,false,false
+479,286979,Brades,true,false
+480,273974,Ābyek,false,true
+481,356632,Bakov nad Jizerou,true,true
+482,944768,Guadalupe,false,true
+483,408298,Jadowniki,true,false
+484,589856,Bulri,false,false
+485,286643,Villa Verde,false,false
+486,136325,Grand Rapids,true,true
+487,699704,Rybczewice,false,true
+488,577601,Nanzhai,false,true
+489,974535,Stare Miasto,false,false
+490,045080,Passos,true,true
+491,339599,Krajan,true,false
+492,793136,Zaječí,false,false
+493,684340,Dairiti,false,false
+494,117183,Banjar Tiga,true,false
+495,873642,Bontoc,false,false
+496,853315,Messina,true,true
+497,470642,Port-au-Prince,true,true
+498,158155,Rajal Norte,true,false
+499,176177,Bergen,true,false
+500,142483,Hulutao,false,true
+501,730032,Ciwaru,false,false
+502,818929,Elassóna,false,false
+503,437661,Águas de Lindóia,false,true
+504,633665,Piteå,false,false
+505,204204,Goim,true,true
+506,493846,Ḩalwān,true,true
+507,806806,Settat,true,true
+508,163271,Longzhong,false,false
+509,550200,Krokeaí,true,true
+510,832176,Šalovci,false,false
+511,052583,Delson,true,false
+512,978958,Souziqiu,true,false
+513,322171,Cijoho,true,true
+514,569008,Erada,false,true
+515,593001,Jibu Hulangtu,true,true
+516,450662,San Juan del Surutú,true,false
+517,674611,Horvati,true,false
+518,756081,Wonorejo,true,false
+519,532320,Orivesi,false,true
+520,272410,Outlook,true,false
+521,565319,Vom,false,true
+522,938764,Xuexi,false,true
+523,605777,Qŭrghonteppa,false,false
+524,011979,São Raimundo Nonato,false,false
+525,291503,Sumbuya,true,true
+526,513845,Visby,false,false
+527,888579,Agía Triáda,true,false
+528,982480,Covas,false,true
+529,371159,Rongcheng,false,true
+530,623643,Thomazeau,false,true
+531,933465,Santa Monica,false,true
+532,812363,Dayr Dibwān,false,true
+533,980031,Ilovlya,true,true
+534,275375,Cilongkrangpusaka,true,true
+535,497011,Jianfeng,false,false
+536,727836,Ani-e,true,false
+537,435298,San Cristóbal,true,true
+538,119636,Brengkok,true,false
+539,944057,Bandeirantes,false,false
+540,695051,Talodi,true,true
+541,223397,Argalastí,true,true
+542,486549,Teupasenti,false,true
+543,596822,Vahdat,true,true
+544,407494,Masape,false,true
+545,508905,Batiovo,false,false
+546,283333,Paris 08,false,false
+547,041475,Licheng,true,false
+548,307934,Nanwai,true,false
+549,459904,Lancang,true,true
+550,680623,Stavyshche,false,true
+551,087890,Dingtou,true,false
+552,334163,Wangwu,true,false
+553,296792,Kolyshley,false,true
+554,832539,Wonotirto,false,false
+555,697122,Taoshan,true,false
+556,386947,Calceta,true,true
+557,465809,Pale,true,false
+558,643098,Zaindainxoi,true,false
+559,024098,Candoso,false,true
+560,882323,Burevestnik,false,false
+561,557361,Dongpu,false,false
+562,237729,Youyang,false,true
+563,935695,Wotho,false,true
+564,396068,Gambarjati,false,true
+565,798618,Jianling,true,true
+566,784674,Sampués,true,true
+567,815322,Colón,false,true
+568,204812,Terentang,true,true
+569,864099,Varjota,false,true
+570,945866,Zaqatala,false,false
+571,278654,Thatèng,true,true
+572,745335,Kourou,true,true
+573,601369,Shimokizukuri,true,false
+574,262346,Guardizela,true,true
+575,794825,Krajan Dua Putukrejo,true,false
+576,583398,Liangbing,false,true
+577,079117,Dailing,true,false
+578,790900,Tam Bình,false,false
+579,189506,San Juan,true,true
+580,048422,Rosario de Mora,false,true
+581,033635,Amman,false,false
+582,076383,Sarvaš,false,false
+583,055486,Misasi,false,true
+584,421902,Mirošov,true,true
+585,865914,Nangalimang,true,true
+586,523999,Ngora,false,true
+587,544623,Tsagaan-Owoo,false,true
+588,688769,Ban Phaeo,false,false
+589,548055,La Julia,false,false
+590,159508,Cañasgordas,true,true
+591,901821,Dingdian,true,true
+592,581670,São Sebastião do Paraíso,false,false
+593,991330,Bronx,false,false
+594,136837,Tournon-sur-Rhône,false,true
+595,362884,Jakusko,true,false
+596,241691,Mīzan Teferī,true,true
+597,097312,Xiongbei,false,false
+598,559349,Rochester,true,false
+599,893082,Firenze,true,true
+600,093204,Pyatnitskoye,true,false
+601,332226,Citeluk,true,true
+602,883859,Borås,true,true
+603,774093,Silago,true,false
+604,268098,Gvardeysk,true,true
+605,812775,Hošťka,false,true
+606,590314,El Tejocote,false,true
+607,570812,Yelat’ma,false,true
+608,655961,Sharïngol,true,true
+609,856310,Gabaldon,false,false
+610,089346,Calmar,false,true
+611,695059,Sankt Andrä-Höch,false,true
+612,686272,Al Funayţīs,false,false
+613,192767,Suphan Buri,false,false
+614,217228,Ostankinskiy,false,false
+615,630764,Amper,false,true
+616,991235,Kotabaru,false,true
+617,520647,Xiaohe,false,false
+618,302711,Plymouth,false,false
+619,508386,Belo,true,true
+620,177293,Magok,true,true
+621,630804,Al ‘Awjā,false,false
+622,301109,La Condamine,true,true
+623,915497,Biecz,true,false
+624,255291,Chicago,false,false
+625,802954,Dmytrivka,true,true
+626,623545,Tsukumiura,false,false
+627,170823,Guandiping,false,false
+628,358033,Jieshui,true,true
+629,078592,Cigenca,true,false
+630,543990,Vila Nova,false,false
+631,416893,Krasnapollye,false,true
+632,706055,Bassila,true,false
+633,611584,Cipicung,false,false
+634,204399,Horodok,false,false
+635,609371,Cimuncang,true,false
+636,459516,Philadelphia,true,true
+637,097914,Minakuchi,true,false
+638,522008,Hongmen,true,true
+639,382430,Moch,true,false
+640,348341,Izumo,true,true
+641,138307,Acheng,false,true
+642,104509,Alkmaar,false,true
+643,087917,Strančice,true,true
+644,862421,Sviblovo,false,false
+645,816169,Denpasar,false,false
+646,716085,Dongtou,false,true
+647,919945,Kōchi-shi,true,true
+648,029570,Itaqui,false,false
+649,186161,Thomastown,false,false
+650,974060,Graikochóri,true,false
+651,076440,Mirkovci,true,false
+652,554374,Koryukivka,false,true
+653,838057,Maru,true,false
+654,974008,Trzebiatów,true,true
+655,339506,Banghai,false,true
+656,103217,Palermo,false,true
+657,148330,‘Arīqah,true,false
+658,572641,Dakhla,true,true
+659,198749,Niquelândia,true,false
+660,479311,Piuí,false,true
+661,114639,Zhiqing Songduo,false,true
+662,510643,Tanglag,false,false
+663,111731,Tamansari,false,true
+664,494073,Xinjiebu,false,false
+665,993087,Monastyryshche,false,false
+666,871641,Haligue,false,false
+667,779582,Arauca,true,false
+668,351818,Haiyangsuo,true,true
+669,406432,Ban Takhun,false,false
+670,698255,Jakartovice,false,true
+671,197781,Phúc Yên,true,false
+672,999163,Uzunovo,true,true
+673,861719,Cleveland,true,true
+674,982959,Xukou,false,true
+675,685436,Tucupita,true,true
+676,495721,Cambridge,true,false
+677,737255,Huangbu,true,false
+678,390286,Negotin,false,false
+679,947086,Wonokerto,true,false
+680,196960,Ryczów,false,true
+681,166753,Santa Lucia,false,true
+682,095967,Gabi,false,false
+683,393396,Pousada,true,false
+684,454502,Kandang Timur,true,true
+685,979017,Xinhua,true,true
+686,433453,Karadaglije,true,false
+687,365331,Paraíso,false,false
+688,755218,Támara,false,false
+689,998463,Suibara,true,true
+690,999272,Orlando,false,true
+691,294073,Xinhua,false,true
+692,541568,Duba,true,true
+693,557668,Independencia,true,false
+694,193837,Starobachaty,false,true
+695,345781,Verkhn’odniprovs’k,true,true
+696,658516,Shapaja,true,true
+697,257023,Peteranec,true,true
+698,796232,Banjarjo,false,false
+699,059103,Lancaster,false,true
+700,701360,Hatu Buh,true,true
+701,282055,Sovetsk,true,true
+702,829225,Nha Trang,true,false
+703,273443,Houston,true,true
+704,789855,Wenchun,true,true
+705,692102,Minsk,false,true
+706,485816,Is,true,true
+707,585504,Jianjun,true,true
+708,265701,Guacarí,false,true
+709,726149,Dầu Tiếng,true,false
+710,231788,Bacelo,true,true
+711,119457,Ḩalwān,true,false
+712,679057,Ansongo,true,true
+713,199367,Belköl,false,false
+714,494606,Ambanja,false,true
+715,787968,Smålandsstenar,true,false
+716,182826,Jintan,true,true
+717,208179,Diré,true,false
+718,308926,Ādaži,false,true
+719,702353,Hetou,true,false
+720,836126,Liugong,true,true
+721,757183,Grivenskaya,false,true
+722,683116,Valbonë,false,false
+723,110634,Bourg-lès-Valence,false,true
+724,632848,Kedatuan,false,false
+725,980152,Petawawa,true,false
+726,222392,Roshnik,false,true
+727,117049,Sitularang Landeuh,true,false
+728,493650,Nagutskoye,true,true
+729,620344,Kaura Namoda,false,true
+730,540595,Karangpaningal,true,false
+731,266885,Montélimar,true,true
+732,862214,Rumāh,true,true
+733,561773,Pakis,true,true
+734,893329,Ystad,false,false
+735,475056,Malinta,false,true
+736,545327,Strelka,false,true
+737,632111,Walnut Grove,false,true
+738,936082,Phú Lộc,true,true
+739,609871,Buganda,true,true
+740,597404,Atalaia,true,false
+741,208148,Vincennes,true,true
+742,307278,Namasuba,true,false
+743,278885,Lycksele,true,false
+744,908845,Ucuncha,false,false
+745,274494,Forécariah,false,false
+746,681143,Cigenca,true,true
+747,286007,Pedreira,true,true
+748,653493,Baraguá,true,true
+749,744684,Tanjung Timur,true,false
+750,204864,San Jose,false,true
+751,373928,Huhe,true,false
+752,173168,Pregradnaya,true,false
+753,190923,Kasturi,true,true
+754,026911,Ketanggi,true,false
+755,512918,Krechevitsy,false,false
+756,699083,Sertolovo,true,true
+757,943876,Chã,true,false
+758,857827,Ngrejo,false,true
+759,762017,Fajsławice,true,true
+760,340412,Baisha,true,true
+761,019644,Santa Elena,false,true
+762,229799,Muikamachi,true,true
+763,286989,Babakantonggoh,false,false
+764,641014,Pudoc,true,false
+765,386487,Qaryat ad Da‘īs,true,true
+766,743510,Liopétri,false,true
+767,844040,Wakayama-shi,false,false
+768,310629,Makueni,true,false
+769,117821,Dobrica,false,true
+770,621713,Podgornoye,true,false
+771,398286,Semirara,true,false
+772,951000,Sunagawa,true,true
+773,152418,Dřevohostice,true,false
+774,801363,Jiangluo,false,true
+775,138683,Jiefang,true,true
+776,851956,Boudinar,true,false
+777,910481,Pingdu,true,true
+778,145791,Palatine,true,true
+779,897287,Pangkalan,false,false
+780,424937,Nocaima,false,false
+781,116097,Masumbwe,false,false
+782,475542,Kamina,true,true
+783,940050,Banjar,false,false
+784,668109,Anderstorp,false,true
+785,596916,Gniezno,false,true
+786,938322,Krasnyy Oktyabr’,true,false
+787,560533,Karangtawar,true,false
+788,849791,Östhammar,false,true
+789,890495,Achiaman,true,true
+790,369632,Phalaborwa,false,false
+791,081812,Yao,true,true
+792,164872,Stockholm,true,false
+793,063391,Štore,false,false
+794,015968,Vale de Vila,true,false
+795,807929,Yeoju,false,true
+796,979324,Tirlyanskiy,true,true
+797,221152,Ligang,false,true
+798,527310,Bidyā,true,false
+799,334419,Mós,false,false
+800,410956,Yuhuazhai,false,false
+801,888882,Tosno,true,true
+802,082459,Lagoa Santa,false,true
+803,965592,Vangaži,true,false
+804,260713,Tlogotunggal,true,true
+805,288429,Přibyslav,false,true
+806,270768,Créteil,true,true
+807,886361,Miandrivazo,true,false
+808,600588,Ucluelet,false,true
+809,242907,Benchu,true,true
+810,141747,Korop,false,false
+811,937882,Shebunino,true,false
+812,599230,Suicheng,false,false
+813,666953,Quinarayan,true,true
+814,312332,Al Jarādīyah,true,false
+815,548342,Santo Ângelo,false,true
+816,405117,Ciharalang,false,true
+817,753173,Novoye Devyatkino,false,true
+818,304491,Nāgarpur,true,false
+819,550427,Baishui,false,true
+820,509193,Guanshui,false,false
+821,545143,Tsuma,false,true
+822,734554,Wilmington,true,false
+823,424215,Artsvaberd,true,false
+824,202808,Kamubheka,false,true
+825,993560,Langarūd,false,false
+826,725225,Hayan Hudong,true,false
+827,819112,Lluchubamba,false,true
+828,902472,Karantaba,true,true
+829,090827,Ōkawa,false,true
+830,607965,Limonade,true,false
+831,013680,Pankshin,false,false
+832,467445,Shahr-e Qods,true,true
+833,725944,Kaduheuleut,true,true
+834,875212,Sapeken,true,false
+835,333207,Sandviken,false,false
+836,598568,Tanjungluar,false,false
+837,999098,Värnamo,true,false
+838,578947,Smārde,false,true
+839,824593,Dabbūrīya,true,false
+840,071685,Tianxing,true,true
+841,047726,Bratislava,true,false
+842,811030,Puerto López,false,false
+843,398493,Reckange-sur-Mess,false,true
+844,559835,Balaogan,false,false
+845,423472,Pruszcz,true,false
+846,945760,Obanazawa,true,false
+847,301987,Reina Mercedes,true,false
+848,393010,Rockford,true,false
+849,823159,New Mīrpur,false,false
+850,914456,Lafia,false,true
+851,425358,Sampungu,true,false
+852,000552,Humniska,true,true
+853,540728,Heqian,true,false
+854,445337,Krajan,true,false
+855,257458,Vorob’yovo,true,false
+856,043226,Seboruco,false,true
+857,371334,Upernavik,false,false
+858,414256,Midrand,false,false
+859,694613,Nagornyy,true,false
+860,310081,Sentieiras,true,true
+861,404790,Berkovitsa,false,false
+862,139735,Sal’sk,false,true
+863,506972,Washington,false,true
+864,040859,Balyqshy,false,false
+865,644476,Hallsberg,false,true
+866,677230,Huaqiao,true,true
+867,951738,Sanjiangkou,true,true
+868,896003,Gandra,false,true
+869,717860,Toulouse,true,true
+870,228400,Kole,false,true
+871,223607,Cotmon,false,true
+872,519730,Sirnasari,false,false
+873,503413,Ash Shaykh Zuwayd,false,true
+874,771782,Novoaltaysk,false,true
+875,501959,Rudziczka,false,false
+876,516129,Wattala,false,true
+877,857233,Panadtaban,true,true
+878,625689,Duma,true,true
+879,422947,Kyela,false,true
+880,494201,Marcabamba,false,false
+881,380370,Richmond,true,true
+882,496626,San Carlos,false,false
+883,206669,Ngembel,true,false
+884,027592,Castelli,false,true
+885,364784,Damietta,true,true
+886,315051,Wang’er,false,true
+887,357096,Limoeiro,true,false
+888,199849,Göteborg,true,false
+889,918062,Surubim,true,false
+890,615102,Pajaten,false,false
+891,550631,Nice,false,true
+892,473319,Nanling,false,true
+893,208949,Nor Yerznka,false,true
+894,021279,Venëv,true,true
+895,774284,Marathon,false,true
+896,805185,Haduohe,false,false
+897,995027,Brody,true,true
+898,305387,Guolemude,false,false
+899,487767,Fteliá,false,true
+900,712503,Nacaome,true,false
+901,419052,Nikel’,true,true
+902,898574,Haljala,false,false
+903,360543,Placencia,true,false
+904,066786,Calheta,false,false
+905,224283,Horní Libina,true,true
+906,138872,Haapajärvi,true,false
+907,705211,Faeanak Dua,false,true
+908,433594,Magang,false,false
+909,708925,Achiaman,false,false
+910,825505,Niitsu-honchō,false,true
+911,062150,Wanliang,false,false
+912,122300,Jinshan,false,false
+913,705563,Mengcheng Chengguanzhen,true,false
+914,907843,Gukovo,false,true
+915,496282,Paris 16,true,true
+916,291759,Ntsoudjini,true,true
+917,937865,Kotor,false,true
+918,798081,Stepnogorsk,false,true
+919,000736,Tangzha,true,true
+920,385765,Xiaocheng,false,false
+921,390134,Marseille,false,false
+922,403708,Aki,false,false
+923,273030,Toumodi,false,false
+924,022362,Bulri,false,false
+925,570518,Ouani,true,true
+926,180118,Pleasant Point,true,true
+927,554208,Hongping,false,true
+928,434163,São Bento do Sul,false,true
+929,656720,Santa Rosa de Aguán,false,false
+930,400757,Gowurdak,false,false
+931,569799,Balagui,true,true
+932,662116,Ōdachō-ōda,false,true
+933,085025,Hữu Lũng,false,false
+934,009754,Dalu,true,false
+935,760977,Železnice,false,false
+936,134996,Minuwangoda,false,false
+937,332038,Káto Glikóvrisi,true,false
+938,301588,Cimişlia,true,false
+939,350209,Niebocko,false,false
+940,613536,Ludwigshafen am Rhein,false,true
+941,907969,El Ksour,true,true
+942,331115,Dolavón,false,false
+943,752978,Bluri,false,false
+944,718791,Montevista,false,true
+945,437279,Shuanghe,false,false
+946,663100,Balqash,false,true
+947,029456,Chowki Jamali,true,false
+948,644642,Novyy Urengoy,true,false
+949,668228,Xinxiang,true,true
+950,657510,Kallithéa,false,true
+951,138680,Pokotylivka,true,true
+952,137681,Phu Kradueng,true,true
+953,744316,Constanza,false,false
+954,570443,Eastern Suburbs Mc,false,false
+955,990280,Moss,true,true
+956,522196,Dar es Salaam,false,true
+957,318323,Lintaca,false,false
+958,411087,Blumenau,true,true
+959,887146,Las Junturas,false,false
+960,540621,Lijie,true,true
+961,458313,Salwá,true,false
+962,369188,Tuymazy,false,true
+963,841507,Sukamaju,false,false
+964,950180,Mojosari,true,false
+965,498872,Fu’an,false,false
+966,869641,Nossebro,true,true
+967,942249,Ojos de Agua,true,true
+968,335461,Lembanah,false,false
+969,542954,Milwaukee,true,true
+970,858452,Barra de Carrasco,false,false
+971,969069,Linstead,false,true
+972,157100,Tando Jām,true,false
+973,788727,Abucay,true,true
+974,381638,Kendal,false,false
+975,022159,Szombathely,false,false
+976,120451,Suchań,true,true
+977,397437,Ojrzeń,false,true
+978,328641,Mitrovicë,true,true
+979,540842,Chalon-sur-Saône,false,true
+980,687833,Jacksonville,false,true
+981,812783,Clones,false,true
+982,758336,Dahu Satu,false,false
+983,340410,Bandeirantes,false,false
+984,156400,Xiaolou,false,true
+985,948461,Ban Khlong Bang Sao Thong,false,false
+986,891234,Lughaye,false,false
+987,044042,Libofshë,true,false
+988,834294,Olhos de Água,false,false
+989,168646,Claye-Souilly,false,true
+990,095769,Makar’yev,false,false
+991,518629,Perstorp,true,true
+992,855721,Liliba,true,false
+993,454627,Buruanga,true,false
+994,020170,Yuwan,true,true
+995,611642,Otavalo,true,true
+996,432697,Kolç,true,false
+997,892283,Špišić-Bukovica,true,true
+998,451370,Dongjian,false,true
+999,032512,Nakasongola,true,false
+1000,720870,Zhuoshui,true,true
