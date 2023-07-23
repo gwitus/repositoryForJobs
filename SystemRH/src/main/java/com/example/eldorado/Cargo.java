@@ -2,18 +2,18 @@ package com.example.eldorado;
 
 import java.sql.Date;
 
-public class Cargo {
-    private String nome;
+public class Cargo extends Departamento{
+    private String funcao;
     private int salario;
     private Date data_contratacao;
 
     // Nome
-    public String getNome() {
-        return this.nome;
+    public String getNomeDepartamento() {
+        return this.funcao;
     }
 
-    public void setNome(String nome) {
-        this.nome = nome;
+    public void setNomeDepartamento(String funcao) {
+        this.funcao = funcao;
     }
 
     // Salario
