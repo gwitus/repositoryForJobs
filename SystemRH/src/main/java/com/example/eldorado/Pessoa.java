@@ -1,11 +1,9 @@
 package com.example.eldorado;
-// imports
+// Importações de biblioteca
 import java.util.Date;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
 
 public class Pessoa {
     private String nome;
@@ -115,27 +113,27 @@ public class Pessoa {
     }
 
     //-----------------------------+Métodos próprios+-----------------------------\\
-    // Função para registrar Pessoa na memória em tempo real
-    public void registrarPessoa (String nomePessoa) throws ParseException{
-        SimpleDateFormat dataFormatada = new SimpleDateFormat("dd/MM/yyyy");
-        Date dataNascimento = dataFormatada.parse("22/04/2003");
-        // Primeira pessoa colocada como objeto
-        Pessoa pessoaUm = new Pessoa();
-        pessoaUm.setNome(nomePessoa);
-        pessoaUm.setConta("13423-3");
-        pessoaUm.setData_nasc(dataNascimento);
-        pessoaUm.setCpf("123.456.789-00");
-        pessoaUm.setComprovante_em(true);
-        pessoaUm.setCnh(false);
-        pessoaUm.setMba(false);
-        // Printando o resultado de tudo
-        System.out.println(pessoaUm.getCpf());
-    }
+    // // Função para registrar Pessoa na memória em tempo real - Para teste
+    // public void registrarPessoa (String nomePessoa) throws ParseException{
+    //     SimpleDateFormat dataFormatada = new SimpleDateFormat("dd/MM/yyyy");
+    //     Date dataNascimento = dataFormatada.parse("22/04/2003");
+    //     // Primeira pessoa colocada como objeto
+    //     Pessoa pessoaUm = new Pessoa();
+    //     pessoaUm.setNome(nomePessoa);
+    //     pessoaUm.setConta("13423-3");
+    //     pessoaUm.setData_nasc(dataNascimento);
+    //     pessoaUm.setCpf("123.456.789-00");
+    //     pessoaUm.setComprovante_em(true);
+    //     pessoaUm.setCnh(false);
+    //     pessoaUm.setMba(false);
+    //     // Printando o resultado de tudo
+    //     System.out.println(pessoaUm.getCpf());
+    // }
 
 
     // +++++++++++++++++++++=---||CRUD||----=+++++++++++++++++++++++++++ \\
 
-    // Função para adicionar pessoa
+    // Função para adicionar pessoa pela chamada da função
     // adicionarPessoa("Emanuel", "12345678900", "2003/04/22", "13053", false, false, false, false);
     public static void adicionarPessoa(String nome, String cpf, String dataNascimento, String conta,
     boolean comprovanteEm, boolean comprovanteFacul,
@@ -169,6 +167,7 @@ public class Pessoa {
 
 
     // Função para retirar Pessoa
+    // firstPerson.deletarPessoa("candidatos", 3);
     public static void deletarPessoa (String nomeTabela, int numeroID){
     // CPF tem apenas 11 caracteres
     try (Connection conexao = connectionDatabase.obterConexao()) {

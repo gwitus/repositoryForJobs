@@ -1,5 +1,5 @@
 package com.example.eldorado;
-
+// Importações de biblioteca
 import java.sql.Date;
 
 public class Cargo extends Departamento{

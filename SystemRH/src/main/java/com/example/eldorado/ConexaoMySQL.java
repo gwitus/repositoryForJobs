@@ -1,11 +1,8 @@
 package com.example.eldorado;
-
+// Importações de biblioteca
 import java.sql.Connection;
 import java.sql.DriverManager;
-import java.sql.PreparedStatement;
 import java.sql.SQLException;
-// Tinha faltando o Statement
-import java.sql.Statement;
 
 public class ConexaoMySQL {
     private static final String URL     = "jdbc:mysql://localhost:3306/sistemaRH";
@@ -29,7 +26,7 @@ public class ConexaoMySQL {
         try {
             Connection conexao = ConexaoMySQL.obterConexao();
             if (conexao != null) {
-                System.out.println("Procedimento 1 ok - Conexão estabelecida!");
+                System.out.println("Conexão estabelecida!\n");
             } else {
                 System.out.println("Erro ao estabelecer link de conexão.");
             }
