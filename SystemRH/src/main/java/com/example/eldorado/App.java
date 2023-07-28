@@ -2,36 +2,23 @@ package com.example.eldorado;
 
 import java.beans.Statement;
 import java.sql.Connection;
+import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.text.ParseException;
 
 public class App {
-
+    // ----------------------++Função main para executar+++------------------------------\\
     public static void main( String[] args) throws ParseException
     {
-        // Ainda fico por decidir se vai ser tudo feito na mão ou se vou criar um bom menu
-        // Algumas opções que o menu tem que ter, ou se for para inserir tem que ter as funções corretas
-        
-        //+----Acesso de colaborador comum----+\\
-        // 1 - Ver Salário salário atual
-        // 2 - Ver data de admissão
-        // 3 - Ver Informações do departamento ao qual o colaborador pertence
-
-        //----Acesso de administrador----\\
-        // 1 - Cadastrar novo colaborador no banco de dados
-        // 2 - Demitir colaborador
-        // 3 - Cadastrar nova vaga
-        // 4 - Cadastrar nova vaga aleatória
-        // 5 - Demonstrar vagas em aberto
-        // 6 - Validar estatísticas da empresa, como quantos colaboradores tem em cada área, Gerentes com maiores centro de custo à disposição...
-
-        // Pessoa pessoaUm = new Pessoa();
-        // pessoaUm.registrarPessoa("Emanuel");
-
-        // Teste direto por POO deixa o código mais limpo
         ConexaoMySQL conexaoDatabase = new ConexaoMySQL();
+        Pessoa firstPerson           = new Pessoa();
+        // Passo 1 - Teste de conexão;
         conexaoDatabase.testeConexao();
-
-        Statement creator = conexaoDatabase.createStatement();
+        // Padrão para adionar pessoa
+        
+        // firstPerson.adicionarPessoa("Vinícius", "12345678900", "2003/04/22", "13053", false, false, false, false);
+        firstPerson.deletarPessoa("candidatos", 1);
+        firstPerson.deletarPessoa("candidatos", 2);
+        firstPerson.deletarPessoa("candidatos", 3);
     }
 }

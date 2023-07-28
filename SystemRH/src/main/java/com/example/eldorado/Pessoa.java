@@ -1,6 +1,9 @@
 package com.example.eldorado;
 // imports
 import java.util.Date;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 
@@ -13,6 +16,10 @@ public class Pessoa {
     private boolean comprovante_facul;
     private boolean cnh;
     private boolean mba;
+    
+     // -------------------------------++//Variáveis globais\\++-------------------------------------- \\
+     static ConexaoMySQL connectionDatabase = new ConexaoMySQL(); 
+
 
     // -- Não faz sentido colocar ID nisso aqui, já que vai funcionar na base do auto increment -- \\
     // Nome
@@ -55,7 +62,7 @@ public class Pessoa {
         return this.mba;
     }
 
-//---------------------------------------------------+Setando Set's+-------------------------------------------------------\\
+//-----------------------------+Setando Set's+--------------------------------------\\
 
     //CPF
     public void setCpf(String cpf) {
@@ -107,7 +114,6 @@ public class Pessoa {
         this.conta = conta;
     }
 
-
     //-----------------------------+Métodos próprios+-----------------------------\\
     // Função para registrar Pessoa na memória em tempo real
     public void registrarPessoa (String nomePessoa) throws ParseException{
@@ -124,5 +130,55 @@ public class Pessoa {
         pessoaUm.setMba(false);
         // Printando o resultado de tudo
         System.out.println(pessoaUm.getCpf());
+    }
+
+
+    // +++++++++++++++++++++=---||CRUD||----=+++++++++++++++++++++++++++ \\
+
+    // Função para adicionar pessoa
+    // adicionarPessoa("Emanuel", "12345678900", "2003/04/22", "13053", false, false, false, false);
+    public static void adicionarPessoa(String nome, String cpf, String dataNascimento, String conta,
+    boolean comprovanteEm, boolean comprovanteFacul,
+    boolean mba, boolean cnh) {
+    // CPF tem apenas 11 caracteres
+    try (Connection conexao = connectionDatabase.obterConexao()) {
+    String sql = "INSERT INTO candidatos (nome, cpf, data_nasc, conta, comprovante_em, comprovante_facul, mba, cnh) " +
+    "VALUES (?, ?, ?, ?, ?, ?, ?, ?)";
+
+        try (PreparedStatement connectionStatement = conexao.prepareStatement(sql)) {
+        // Substitui os placeholders na instrução SQL pelos valores fornecidos
+        connectionStatement.setString(1, nome);
+        connectionStatement.setString(2, cpf);
+        connectionStatement.setString(3, dataNascimento);
+        connectionStatement.setString(4, conta);
+        connectionStatement.setBoolean(5, comprovanteEm);
+        connectionStatement.setBoolean(6, comprovanteFacul);
+        connectionStatement.setBoolean(7, mba);
+        connectionStatement.setBoolean(8, cnh);
+
+        // Executa a instrução SQL de inserção/*  */
+        connectionStatement.executeUpdate();
+        System.out.println("\n" + nome + " adicionado");
+        }
+        
+        } catch (SQLException e) {
+        System.err.println("Erro ao adicionar pessoa no banco de dados: " + e.getMessage());
+        e.printStackTrace();
+        }
+    }
+
+
+    // Função para retirar Pessoa
+    public static void deletarPessoa (String nomeTabela, int numeroID){
+    // CPF tem apenas 11 caracteres
+    try (Connection conexao = connectionDatabase.obterConexao()) {
+        String sql = "DELETE FROM " + nomeTabela + " WHERE id = " + numeroID;
+            try (PreparedStatement connectionStatement = conexao.prepareStatement(sql)) {
+                connectionStatement.executeUpdate();
+                System.out.println("\nColaborador removido");
+                }
+    } catch (SQLException e) {
+        System.err.println("Erro ao apagar colaborador do banco de dados\n erro: " + e.getMessage());
+        e.printStackTrace();}
     }
 }
