@@ -1,9 +1,12 @@
 package com.example.eldorado;
 // Importações de biblioteca
-import java.util.Date;
+import java.io.Console;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 public class Pessoa {
     private String nome;
@@ -12,172 +15,120 @@ public class Pessoa {
     private String conta;
     private boolean comprovante_em;
     private boolean comprovante_facul;
-    private boolean cnh;
+    private String cnh;
     private boolean mba;
-    
-     // -------------------------------++//Variáveis globais\\++-------------------------------------- \\
-     static ConexaoMySQL connectionDatabase = new ConexaoMySQL(); 
 
-
-    // -- Não faz sentido colocar ID nisso aqui, já que vai funcionar na base do auto increment -- \\
-    // Nome
+    // Get e Set pertinentes
     public String getNome() {
         return this.nome;
-    }
-
-    // CPF
-    public String getCpf() {
-        return this.cpf;
-    }
-
-    // Data de nascimento dos colaboradores
-    public Date getData_nasc() {
-        return this.data_nasc;
-    }
-
-    // Número de conta bancária
-    public String getConta() {
-        return this.conta;
-    }
-
-    // Comprovante de Ensino médio
-    public boolean isComprovante_em() {
-        return this.comprovante_em;
-    }
-
-    // Comprovante de faculdade
-    public boolean isComprovante_facul() {
-        return this.comprovante_facul;
-    }
-
-    //CNH 
-    public boolean isCnh() {
-        return this.cnh;
-    }
-
-    // MBA
-    public boolean isMba() {
-        return this.mba;
-    }
-
-//-----------------------------+Setando Set's+--------------------------------------\\
-
-    //CPF
-    public void setCpf(String cpf) {
-        // Remover caracteres não numéricos do CPF
-        String cpfSemMascara = cpf.replaceAll("[^0-9]", "");
-
-        // Verificar se o CPF tem 11 dígitos
-        if (cpfSemMascara.length() != 11) {
-            throw new IllegalArgumentException("CPF inválido: Insira um CPF em formato válido!!.");
-        }
-
-        // Formatar o CPF com a máscara
-        this.cpf = cpfSemMascara.substring(0, 3) + "." +
-                cpfSemMascara.substring(3, 6) + "." +
-                cpfSemMascara.substring(6, 9) + "-" +
-                cpfSemMascara.substring(9);
-
-    }
-
-    //mba
-    public void setMba(boolean mba) {
-        this.mba = mba;
-    }
-
-    // CNH
-    public void setCnh(boolean cnh) {
-        this.cnh = cnh;
-    }
-
-    // Comprovante da faculdade
-    public void setComprovante_facul(boolean comprovante_facul) {
-        this.comprovante_facul = comprovante_facul;
-    }
-
-    //Comprovante de Ensino médio 
-    public void setComprovante_em(boolean comprovante_em) {
-        this.comprovante_em = comprovante_em;
     }
 
     public void setNome(String nome) {
         this.nome = nome;
     }
 
-    public void setData_nasc(Date data_nasc) {
-        this.data_nasc = data_nasc;
-    }
+    // váriaveis globais
+    ConexaoMySQL connectionDatabase = new ConexaoMySQL(); 
+    Console console = System.console();
 
-    public void setConta(String conta) {
-        this.conta = conta;
-    }
-
-    //-----------------------------+Métodos próprios+-----------------------------\\
-    // // Função para registrar Pessoa na memória em tempo real - Para teste
-    // public void registrarPessoa (String nomePessoa) throws ParseException{
-    //     SimpleDateFormat dataFormatada = new SimpleDateFormat("dd/MM/yyyy");
-    //     Date dataNascimento = dataFormatada.parse("22/04/2003");
-    //     // Primeira pessoa colocada como objeto
-    //     Pessoa pessoaUm = new Pessoa();
-    //     pessoaUm.setNome(nomePessoa);
-    //     pessoaUm.setConta("13423-3");
-    //     pessoaUm.setData_nasc(dataNascimento);
-    //     pessoaUm.setCpf("123.456.789-00");
-    //     pessoaUm.setComprovante_em(true);
-    //     pessoaUm.setCnh(false);
-    //     pessoaUm.setMba(false);
-    //     // Printando o resultado de tudo
-    //     System.out.println(pessoaUm.getCpf());
-    // }
-
-
-    // +++++++++++++++++++++=---||CRUD||----=+++++++++++++++++++++++++++ \\
-
-    // Função para adicionar pessoa pela chamada da função
-    // adicionarPessoa("Emanuel", "12345678900", "2003/04/22", "13053", false, false, false, false);
-    public static void adicionarPessoa(String nome, String cpf, String dataNascimento, String conta,
-    boolean comprovanteEm, boolean comprovanteFacul,
-    boolean mba, boolean cnh) {
-    // CPF tem apenas 11 caracteres
-    try (Connection conexao = connectionDatabase.obterConexao()) {
-    String sql = "INSERT INTO candidatos (nome, cpf, data_nasc, conta, comprovante_em, comprovante_facul, mba, cnh) " +
-    "VALUES (?, ?, ?, ?, ?, ?, ?, ?)";
-
-        try (PreparedStatement connectionStatement = conexao.prepareStatement(sql)) {
-        // Substitui os placeholders na instrução SQL pelos valores fornecidos
-        connectionStatement.setString(1, nome);
-        connectionStatement.setString(2, cpf);
-        connectionStatement.setString(3, dataNascimento);
-        connectionStatement.setString(4, conta);
-        connectionStatement.setBoolean(5, comprovanteEm);
-        connectionStatement.setBoolean(6, comprovanteFacul);
-        connectionStatement.setBoolean(7, mba);
-        connectionStatement.setBoolean(8, cnh);
-
-        // Executa a instrução SQL de inserção/*  */
-        connectionStatement.executeUpdate();
-        System.out.println("\n" + nome + " adicionado");
-        }
+    // Ordem natural de associação: 
+    // 1_nome, 2_cpf, 3_dataNascimento, 4_Conta, 5_ComprovanteEM, 6_ComprovanteFacul, 7_mba e 8_CNH
+    public void cadastrarCandidato() throws ParseException {
+        nome                       = console.readLine("Nome: ");
+        cpf                        = console.readLine("CPF: ");
+        conta                      = console.readLine("Número da conta bancária: ");
+        cnh                        = console.readLine("Letra da CNH: ");
+        // Modelo de input : dd/mm/yyyy
+        String nascimento          = console.readLine("Data de nascimento: ");
+        // Todos os booleanos em origem tem de ter apenas a primeira letra inserida, ou vai dar problema
+        String comprovanteEm       = console.readLine("Obtém comprovante do ensino médio?: ");
+        String comprovanteFacul    = console.readLine("Obtém comprovante do ensino superior?: ");
+        String MBA                 = console.readLine("Obtém MBA?: ");
         
+        //Convertedor de dados booleanos comprovante Ensino médio
+        if (comprovanteEm.equalsIgnoreCase("T") || comprovanteEm.equalsIgnoreCase("t")) {
+            this.comprovante_em = true;
+        } else if (comprovanteEm.equalsIgnoreCase("F") || comprovanteEm.equalsIgnoreCase("f")) {
+            this.comprovante_em = false;
+        } else {
+            System.out.println("Paramêtro inválido!");
+            System.exit(1);
+        }
+
+        //Convertedor de dados booleanos comprovante Faculdade
+        if (comprovanteEm.equalsIgnoreCase("T") || comprovanteFacul.equalsIgnoreCase("t")) {
+            this.comprovante_facul = true;
+        } else if (comprovanteFacul.equalsIgnoreCase("F") || comprovanteFacul.equalsIgnoreCase("f")) {
+            this.comprovante_facul = false;
+        } else {
+            System.out.println("Paramêtro inválido!");
+            System.exit(1);
+        }
+
+        //mba
+        //Convertedor de dados booleanos
+        if (MBA.equalsIgnoreCase("T") || MBA.equalsIgnoreCase("t")) {
+            this.mba = true;
+        } else if (MBA.equalsIgnoreCase("F") || MBA.equalsIgnoreCase("f")) {
+            this.mba = false;
+        } else {
+            System.out.println("Paramêtro inválido!");
+            System.exit(1);
+        }
+
+        // Convertendo a String para o tipo date e inserção no banco
+
+        // Antes de adicionar precisa fazer uma breve consultar no CPF para validar se já não existe
+        try (Connection conexao = ConexaoMySQL.obterConexao()){
+            SimpleDateFormat formatoData = new SimpleDateFormat("dd/MM/yyyy");
+            this.data_nasc = formatoData.parse(nascimento);
+            java.sql.Date dataSql = new java.sql.Date(this.data_nasc.getTime());
+            String sql = "INSERT INTO candidatos (nome, cpf, data_nasc, conta, comprovante_em, comprovante_facul, mba, cnh, pontos) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)";
+            // Second Try Catch
+            try (PreparedStatement pstmt = conexao.prepareStatement(sql)) {
+                pstmt.setString(1, nome);
+                pstmt.setString(2, cpf);
+                pstmt.setDate(3, dataSql);
+                pstmt.setString(4, conta);
+                pstmt.setBoolean(5, comprovante_em);
+                pstmt.setBoolean(6, comprovante_facul);
+                pstmt.setBoolean(7, mba);
+                pstmt.setString(8, cnh);
+                pstmt.setInt(9, validarPontos(mba, comprovante_facul, comprovante_em, dataSql));
+
+                // Executando o insert
+                pstmt.executeUpdate();
+                System.out.println("Pessoa cadastrada com sucesso!");
+            }
         } catch (SQLException e) {
-        System.err.println("Erro ao adicionar pessoa no banco de dados: " + e.getMessage());
-        e.printStackTrace();
+            System.err.println("Erro ao cadastrar pessoa: " + e.getMessage());
         }
     }
 
 
-    // Função para retirar Pessoa
-    // firstPerson.deletarPessoa("candidatos", 3);
-    public static void deletarPessoa (String nomeTabela, int numeroID){
-    // CPF tem apenas 11 caracteres
-    try (Connection conexao = connectionDatabase.obterConexao()) {
-        String sql = "DELETE FROM " + nomeTabela + " WHERE id = " + numeroID;
-            try (PreparedStatement connectionStatement = conexao.prepareStatement(sql)) {
-                connectionStatement.executeUpdate();
-                System.out.println("\nColaborador removido");
-                }
-    } catch (SQLException e) {
-        System.err.println("Erro ao apagar colaborador do banco de dados\n erro: " + e.getMessage());
-        e.printStackTrace();}
+    //Pontos definidos Nome = 0, CPF = 0, Data = 0 se abaixo dos 50 anos, acima por cada ano perde 1 ponto, 
+    // Conta = 0, Se tiver EM = 10, Se tiver Facul = 30, se tiver MBA = 40 e dependendo a letra da CNH = 30
+    public int validarPontos(boolean ensinoMedio, boolean ensinoSuperior, boolean comprovanteMBA, Date dataDeNascimento) {
+        // Globais
+        int pontos = 0;
+        int resultado = 0;
+        // Alimentando pontos
+        if (ensinoMedio) {pontos = pontos + 10;}
+        if (ensinoSuperior) {pontos = pontos +30;}
+        if (comprovanteMBA) {pontos = pontos + 40;}
+        
+        if (calcularIdade(dataDeNascimento) > 50) {resultado = pontos - calcularIdade(dataDeNascimento) + 50;}
+
+        return resultado;
+    }
+
+    // Função para calcular a diferença de idade, devido a política de soma de pontos para a organização
+    public int calcularIdade(java.util.Date dataNascimento) {
+        // Convertendo java.util.Date para java.time.LocalDate
+        java.time.LocalDate dataNasc = dataNascimento.toInstant().atZone(java.time.ZoneId.systemDefault()).toLocalDate();
+        // Obtendo a data atual
+        java.time.LocalDate dataAtual = java.time.LocalDate.now();
+        long anosDeIdade = java.time.temporal.ChronoUnit.YEARS.between(dataNasc, dataAtual);
+        return (int) anosDeIdade;
     }
 }
