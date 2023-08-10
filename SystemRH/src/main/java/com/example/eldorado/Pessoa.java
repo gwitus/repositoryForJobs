@@ -11,7 +11,7 @@ import java.util.Date;
 public class Pessoa {
     private String nome;
     private String cpf;
-    private Date data_nasc;
+    private String data_nasc;
     private String conta;
     private boolean comprovante_em;
     private boolean comprovante_facul;
@@ -81,23 +81,22 @@ public class Pessoa {
         // Antes de adicionar precisa fazer uma breve consultar no CPF para validar se já não existe
         try (Connection conexao = ConexaoMySQL.obterConexao()){
             SimpleDateFormat formatoData = new SimpleDateFormat("dd/MM/yyyy");
-            this.data_nasc = formatoData.parse(nascimento);
-            java.sql.Date dataSql = new java.sql.Date(this.data_nasc.getTime());
+            
             String sql = "INSERT INTO candidatos (nome, cpf, data_nasc, conta, comprovante_em, comprovante_facul, mba, cnh, pontos) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)";
             // Second Try Catch
             try (PreparedStatement pstmt = conexao.prepareStatement(sql)) {
-                pstmt.setString(1, nome);
-                pstmt.setString(2, cpf);
-                pstmt.setDate(3, dataSql);
-                pstmt.setString(4, conta);
-                pstmt.setBoolean(5, comprovante_em);
-                pstmt.setBoolean(6, comprovante_facul);
-                pstmt.setBoolean(7, mba);
-                pstmt.setString(8, cnh);
-                pstmt.setInt(9, validarPontos(mba, comprovante_facul, comprovante_em, dataSql));
+                // pstmt.setString(1, nome);
+                // pstmt.setString(2, cpf);
+                // pstmt.setDate(3, dataSql);
+                // pstmt.setString(4, conta);
+                // pstmt.setBoolean(5, comprovante_em);
+                // pstmt.setBoolean(6, comprovante_facul);
+                // pstmt.setBoolean(7, mba);
+                // pstmt.setString(8, cnh);
+                // pstmt.setInt(9, validarPontos(mba, comprovante_facul, comprovante_em, dataSql));
 
                 // Executando o insert
-                pstmt.executeUpdate();
+                // pstmt.executeUpdate();
                 System.out.println("Pessoa cadastrada com sucesso!");
             }
         } catch (SQLException e) {
@@ -108,7 +107,7 @@ public class Pessoa {
 
     //Pontos definidos Nome = 0, CPF = 0, Data = 0 se abaixo dos 50 anos, acima por cada ano perde 1 ponto, 
     // Conta = 0, Se tiver EM = 10, Se tiver Facul = 30, se tiver MBA = 40 e dependendo a letra da CNH = 30
-    public int validarPontos(boolean ensinoMedio, boolean ensinoSuperior, boolean comprovanteMBA, Date dataDeNascimento) {
+    public int validarPontos(boolean ensinoMedio, boolean ensinoSuperior, boolean comprovanteMBA, String dataDeNascimento) {
         // Globais
         int pontos = 0;
         int resultado = 0;
@@ -117,18 +116,26 @@ public class Pessoa {
         if (ensinoSuperior) {pontos = pontos +30;}
         if (comprovanteMBA) {pontos = pontos + 40;}
         
-        if (calcularIdade(dataDeNascimento) > 50) {resultado = pontos - calcularIdade(dataDeNascimento) + 50;}
+        // revalidar
+        // if (calcularIdade(dataDeNascimento) > 50) {resultado = pontos - calcularIdade(dataDeNascimento) + 50;}
 
         return resultado;
     }
 
     // Função para calcular a diferença de idade, devido a política de soma de pontos para a organização
-    public int calcularIdade(java.util.Date dataNascimento) {
-        // Convertendo java.util.Date para java.time.LocalDate
-        java.time.LocalDate dataNasc = dataNascimento.toInstant().atZone(java.time.ZoneId.systemDefault()).toLocalDate();
-        // Obtendo a data atual
-        java.time.LocalDate dataAtual = java.time.LocalDate.now();
-        long anosDeIdade = java.time.temporal.ChronoUnit.YEARS.between(dataNasc, dataAtual);
-        return (int) anosDeIdade;
+    public int calcularIdade(int dia, int mes, int ano) {
+        // Validação de tamanho
+        if (dia <= 0 || dia > 31) {System.exit(1);}
+        if (mes <= 0 || mes > 12) {System.exit(1);}
+        // Validando a questão de fevereiro ter no máximo 29 - o correto seria colocar aqui uma validação de ano bissexto mas estou com preguiça kkkkkk.
+        if (ano < 0 || dia > 31 || dia > 29 && mes == 2 )  {
+            System.out.println("Entrada mês ou ano inválida!");
+            System.exit(1);
+            // validarBissexto(ano);
+        }
+        // Date dataNascimento = new Date(103, 3, 22); // 22/04/2003
+
+        
+        return 0;
     }
 }

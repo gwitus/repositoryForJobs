@@ -7,12 +7,14 @@ public class App {
     // Variáveis globais
     static Date dataAgora = new Date();
     static ConexaoMySQL conexaoDatabase = new ConexaoMySQL();
-
+    
     // ----Função main para executar---\\
-    public static void main( String[] args) throws ParseException
-    {
+    public static void main( String[] args) throws ParseException {
         // ----------------++ Objetos ++ -------------------- \\
         Pessoa firstPerson = new Pessoa();
+        conexaoDatabase.testeConexao();
         firstPerson.cadastrarCandidato();
+
+    
     }
 }

@@ -7,7 +7,7 @@ import java.sql.SQLException;
 public class ConexaoMySQL {
     private static final String URL     = "jdbc:mysql://localhost:3306/sistemaRH";
     private static final String USUARIO = "gwitus";
-    private static final String SENHA   = "2204Silv@123_";
+    private static final String SENHA   = "devSincero123";
 
     //Banco conexão, agora aprender sobre mysql
     public static Connection obterConexao() {
