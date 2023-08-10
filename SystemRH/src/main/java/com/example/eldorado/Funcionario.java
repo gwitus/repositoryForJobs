@@ -1,10 +1,28 @@
 package com.example.eldorado;
 
-public class Funcionario {
-    private int matricula;
-    private String local;
+public class Funcionario extends Pessoa {
+    private int     matricula;
+    private String  local;
     private boolean em_atividade;
     private boolean administrador;
+    private String  usuarioAD;
+    private String  senha;
+
+    public String getusuarioAD() {
+		return this.usuarioAD;
+	}
+
+    public void setUserAD(String usuarioAD) {
+		this.usuarioAD = usuarioAD;
+	}
+
+    public String getSenha() {
+		return this.senha;
+	}
+
+    public void setSenha(String senha) {
+		this.senha = senha;
+	}
 
     // Matricula
     public int getMatricula() {

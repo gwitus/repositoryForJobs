@@ -1,17 +1,17 @@
 package com.example.eldorado;
 
-public class Departamento {
-    private String nome;
+public class Departamento extends Empresa{
+    private String nomeDepartamento;
     private String PEP;
-    private String CC;
+    private String CentroCusto;
 
     // Nome
-    public String getNome() {
-        return this.nome;
+    public String getNomeDepartamento() {
+        return this.nomeDepartamento;
     }
 
-    public void setNome(String nome) {
-        this.nome = nome;
+    public void setNomeDepartamento(String nomeDepartamento) {
+        this.nomeDepartamento = nomeDepartamento;
     }
 
     // Pep a qual aquele colaborador está inserido
@@ -24,12 +24,12 @@ public class Departamento {
     }
 
     // Centro de custo a qual aquele colaborador está inserido
-    public String getCC() {
-        return this.CC;
+    public String getCentroCusto() {
+        return this.CentroCusto;
     }
 
-    public void setCC(String CC) {
-        this.CC = CC;
+    public void setCentroCusto(String CentroCusto) {
+        this.CentroCusto = CentroCusto;
     }
 
 }
